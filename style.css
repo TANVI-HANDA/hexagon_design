@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* ---------------------page-1------------------- */
+
+#page-1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/157317339/photo/country-road-through-mountains.jpg?s=612x612&w=0&k=20&c=dK7eXtdB4XDjenABSuYidGH_9ueA9_zhO1LApOULnf0=);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#overlay-1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Navbar styling */
+#nav {
+    width: 100%;
+    height: 12%;
+    background-color: rgba(128, 128, 128, 0.427);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+/* apidura logo */
+#left img {
+    width: 110px; 
+}
+
+/* Center */
+#center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
+    color: white;
+}
+
+#center h4 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#center h4 i {
+    font-size: 16px;
+}
+
+/* Right */
+#right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* icons */
+#right-1 {
+    display: flex;
+    gap: 5px; 
+}
+
+.icon-container {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.5);
+        clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+}
+
+.icon-container i {
+    font-size: 16px;
+}
+
+/* right-2*/
+#right-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid white;
+    padding: 0 10px;
+}
+
+#a i {
+    font-size: 20px;
+    color: white;
+}
+
+#b h4 {
+    color: white;
+    margin: 0;
+    padding-left: 10px;
+}
+#content{
+    width: 60%;
+    height: 40%;
+    /* background-color: cornflowerblue; */
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+    color: white;
+}
+span{
+    font-weight: 300;
+}
+#content>h1{
+    font-weight: 100;
+    font-size: 90px;
+}
+#content>h4{
+    margin-bottom: 40px;
+}
+#content>i{
+    font-size: 40px;
+}
+
+/* ---------------------page-2------------------- */
+
+#page-2{
+    background-image: url(https://media.istockphoto.com/id/1396779515/photo/pickup-truck-speeding-on-a-dirt-road-at-sunset-near-to-moab-park-utah.jpg?s=612x612&w=0&k=20&c=_w_69Cxj6wFwGOVlPHjiie6WKqWciQ_rWiorldS6OE4=);
+    width: 100%;
+    height: 180%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#content-2{
+    /* background-color: plum; */
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 10%;
+    left: 28%;
+}
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+.img{
+    width: 230px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.5);
+    clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: -10px;
+}
+
+#img1{
+    background-image: url(https://media.istockphoto.com/id/1491494384/photo/mediterranean-view-at-high-altitude-extreme-terrain-bikepacking-bike-tour.jpg?s=612x612&w=0&k=20&c=-Jm1hB6_Yg0ljbb_KStzAkbGoqzWzy8UbMZ8gyFGXak=); 
+}
+#img2{
+    background-image: url(https://medias.apidura.com/2023/08/apidura-expedition-accessory-pocket-4.5l-product-presentation-poster-633x422.jpg); 
+}
+#img3{
+    background-image: url(https://media.istockphoto.com/id/887452336/photo/landscape-image-of-mountains-and-blue-sky-background-in-ladakh-india.jpg?s=612x612&w=0&k=20&c=mpKpxuiAhFl85zHhOA-liP_hkmEzwL7D-gTm5r55Fgo=); 
+}
+#img4{
+    background-image: url(https://media.istockphoto.com/id/2155869923/photo/road-bicyclist-rides-through-desert-landscape.jpg?s=612x612&w=0&k=20&c=FO3pPM1dr8JBf6_folwO2ecNRfqcXidtDd72lZruCJI=); 
+}
+#img5{
+    background-image: url(https://media.istockphoto.com/id/1281287664/photo/red-mars-like-landscape-in-wadi-rum-desert-jordan-this-location-was-used-as-set-for-many.jpg?s=612x612&w=0&k=20&c=XFX3EWeLz2Lb04HhXF_3bnV6uPuSEjVXWbhKW3MLrvI=); 
+}
+#img6{
+    background-image: url(https://media.istockphoto.com/id/1152325274/photo/fit-african-american-woman-riding-bicycle-offroad-in-red-rock-canyon-park.jpg?s=612x612&w=0&k=20&c=alVeSeiY-6IvNzXw44Cb1biPh-5p8q9cEqXF_fsMK8s=); 
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+}
+
+/* content of img */
+.overlay_content{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: pink; */
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+button{
+    padding: 2px 5px;
+    font-size: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+/* #content-3{
+    width: 50%;
+    height: 50%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+#content-3>h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#content-3>p{
+    font-size: small;
+    line-height: 1.5rem;
+    margin-bottom: 15px;
+}
+#divs{
+    width: 100%;
+    height: 30%;
+    background-color: paleturquoise;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#d1,#d2,#d3,#d4,#d5,#d6{
+    border: 2px solid rgba(255, 255, 255, 0.491);
+    height: 100%;
+    padding: 20px;
+} */
+
